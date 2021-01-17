@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Area {
+public class AreaRec {
 	
 	String area= "";
 
@@ -17,7 +17,7 @@ public class Area {
 		System.out.println("Enter  length and beadth of rectangle :");
 		double l = sc.nextDouble();
 		double b = sc.nextDouble();
-		Area ob = new Area(l,b);
+		AreaRc ob = new AreaRc(l,b);
 		String area = "";
 		area=ob.returnArea();
 		
